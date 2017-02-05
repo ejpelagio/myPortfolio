@@ -1,0 +1,24 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "My Personal Portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "jquery-placeholder": "^2.3.1",
+    "placeholders": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejpelagio/myPortfolio.git"
+  },
+  "author": "Erik J Pelagio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ejpelagio/myPortfolio/issues"
+  },
+  "homepage": "https://github.com/ejpelagio/myPortfolio#readme"
+}
