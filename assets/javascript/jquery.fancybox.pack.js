@@ -1,4 +1,4 @@
-/*! fancyBox v2.1.4 fancyapps.com | fancyapps.com/fancybox/#license */
+ /*! fancyBox v2.1.4 fancyapps.com | fancyapps.com/fancybox/#license */
 (function(C, z, f, r) {
     var q = f(C),
         n = f(z),

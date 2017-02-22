@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en-US">  
+<html lang="en-US">
 
 <head>
 
 <!-- Meta Tags -->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <!-- Web site name -->
-<title>Erik J Pelagio</title>   
+<title>Erik J Pelagio</title>
 
-<meta name="description" content="Insert Your Site Description" /> 
+<meta name="description" content="Insert Your Site Description" />
 
 <!-- Mobile Specifics -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="HandheldFriendly" content="true"/>
-<meta name="MobileOptimized" content="320"/>   
+<meta name="MobileOptimized" content="320"/>
 
 <!-- Reference Links -->
 <!-- Bootstrap -->
@@ -88,18 +88,18 @@
 <!-- End of Splash Screen -->
 
 <!-- Homepage Slider -->
-<div id="home-slider">	
+<div id="home-slider">
     <div class="overlay"></div>
 
     <div class="slider-text">
     	<div id="slidecaption"></div>
-    </div>   
-	
+    </div>
+
 	<div class="control-nav">
         <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
         <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
         <ul id="slide-list"></ul>
-        
+
         <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
     </div>
 </div>
@@ -108,11 +108,11 @@
 <header>
     <div class="sticky-nav">
     	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
-        
+
         <div id="logo">
         	<a id="goUp" href="#home-slider" title="Erik J Pelagio | myPortfolio ">Erik J Pelagio</a>
         </div>
-        
+
         <nav id="menu">
         	<ul id="menu-nav">
             	<li class="current"><a href="#home-slider">Home</a></li>
@@ -125,7 +125,7 @@
  </header>
 <!-- End Header -->
 
-       
+
 
  <!-- Our Work Section -->
 <div id="work" class="page">
@@ -140,7 +140,7 @@
             </div>
         </div>
         <!-- End Title Page -->
-        
+
     </div>
 
         <!-- Portfolio Projects -->
@@ -150,20 +150,22 @@
                 <nav id="options" class="work-nav">
                     <ul id="filters" class="option-set" data-option-key="filter">
                         <li class="type-work">My Work</li>
-                        <li><a href="#filter" data-option-value="*" class="selected">All my Projects</a></li>
+                        <li><a href="#filter" data-option-value="*" class="selected">All My Projects</a></li>
+                        <li><a href="#filter" data-option-value=".mywork">My Projects</a></li>
+                        <li><a href="#filter" data-option-value=".groupprojects">Group Projects</a></li>
                         <li><a href="#filter" data-option-value=".tutorials">Tutorials</a></li>
                     </ul>
                 </nav>
                 <!-- End Filter -->
             </div>
-            
+
             <div class="span9">
                 <div class="row">
                     <section id="projects">
                         <ul id="thumbs">
-                        
+
                             <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 design">
+                            <li class="item-thumbs span3 mywork">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                 <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Looney Tunes RPG Game" href="https://rpg-looneytunes-game.herokuapp.com/">
                                     <span class="overlay-img"></span>
@@ -173,10 +175,10 @@
                                 <img src="assets/images/mywork/looneytunerrpg.png" alt="Loney Tunes RPG Game.">
                             </li>
                             <!-- End Item Project -->
-                            
-                            
+
+
                             <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 design">
+                            <li class="item-thumbs span3 mywork">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                 <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Nfl Team Names Hangman Game" href="https://nfl-hang-man.herokuapp.com/">
                                     <span class="overlay-img"></span>
@@ -186,9 +188,9 @@
                                 <img src="assets/images/mywork/nflhangman.png" alt="Nfl Team Names Hangman Game.">
                             </li>
                             <!-- End Item Project -->
-                            
+
                             <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 design">
+                            <li class="item-thumbs span3 mywork">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                 <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Sports Trivia Game" href="https://my-sports-trivia-game.herokuapp.com/">
                                     <span class="overlay-img"></span>
@@ -201,7 +203,7 @@
                             
                         </ul>
                     </section>
-                    
+
                 </div>
             </div>
         </div>
@@ -224,7 +226,7 @@
         <!-- End Title Page -->
         <!-- Profile -->
         <div class="row">
-            
+
             <!-- Start Profile -->
             <div class="span4 profile">
                 <div class = "selfpic">
@@ -245,7 +247,7 @@
                   <b></b>
                 <p>When not in front of a screen Erik enjoys spending time with his wife Tania and two kids, Gianna and Erik. They find joy in taking walks around the neighborhood or on a warm sunny day out at Zilker Park in Austin. Sports, especially football have always been a part of Eriks heart. Erik volunteers as a head coach with the Texas Youth Football Association in Pflugerville, Texas. Since 2010 he has coached children ages three to ten including his own Son Erik Jr.</p>
     </p>
-                    
+
                 <div class="social">
                     <ul class="social-icons">
                         <li><a href="https://twitter.com/erikjp512"><i class="font-icon-social-twitter"></i></a></li>
@@ -271,12 +273,12 @@
         </div>
     </div>
     <!-- End Title Page -->
-   
+
 
     <!-- Contact Form -->
     <div class="row">
         <div class="span9">
-        
+
             <form id="contact-form" class="contact-form" action="#">
                 <p class="contact-name">
                     <input id="contact_name" type="text" placeholder="Full Name" value="" name="name" />
@@ -290,23 +292,23 @@
                 <p class="contact-submit">
                     <a id="contact-submit" class="submit" href="#">Send Your Email</a>
                 </p>
-                
+
                 <div id="response">
-                
+
                 </div>
             </form>
-         
+
         </div>
-        
-        
+
+
         <div class="span3">
         	<div class="contact-details">
         		<h3>Contact Details</h3>
                 <ul>
                     <li><a href="#">pelagio.erikj@gmail.com</a></li>
-                  
+
                           <li>Austin TX</li>
-                    
+
                 </ul>
             </div>
         </div>
@@ -327,9 +329,9 @@
                         <li><a href="https://github.com/ejpelagio" title="Follow Me on Github" target="_blank"><span class="font-icon-social-github"></span></a></li>
                         <li><a href="http://stackoverflow.com/users/7029061/" title="Follow Me on Stackoverflow" target="_blank"><span class="font-icon-layer"></span></a></li>
                         <li><a href="https://www.facebook.com/erik.pelagio.3" title="Follow Me on Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
-                        
+
                         <li><a href="https://www.linkedin.com/in/erikpelagio" title="Follow Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
-                            
+
                     </ul>
                 </nav>
             </div>
@@ -351,27 +353,27 @@
 
 
 <!-- Js -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 <!-- Bootstrap -->
-<script src="assets/javascript/bootstrap.min.js"></script> 
+<script src="assets/javascript/bootstrap.min.js"></script>
 <!-- Slider -->
-<script src="assets/javascript/supersized.min.js"></script> 
+<script src="assets/javascript/supersized.min.js"></script>
 <!-- WayPoints -->
-<script src="assets/javascript/waypoints.js"></script> 
+<script src="assets/javascript/waypoints.js"></script>
 <!-- Waypoints for Header -->
-<script src="assets/javascript/waypoints-sticky.js"></script> 
+<script src="assets/javascript/waypoints-sticky.js"></script>
 <!-- Isotope Filter -->
-<script src="assets/javascript/jquery.isotope.js"></script> 
+<script src="assets/javascript/jquery.isotope.js"></script>
 <!-- Fancybox -->
-<script src="assets/javascript/jquery.fancybox.pack.js"></script> 
+<script src="assets/javascript/jquery.fancybox.pack.js"></script>
 <!-- Fancybox for Media -->
-<script src="assets/javascript/jquery.fancybox-media.js"></script> 
+<script src="assets/javascript/jquery.fancybox-media.js"></script>
  <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
 <script src="assets/javascript/plugins.js"></script>
 <script src="assets/javascript/placeholder.js"></script>
 <!-- Default main.js -->
-<script src="assets/javascript/main.js"></script> 
+<script src="assets/javascript/main.js"></script>
 
 
 </body>
